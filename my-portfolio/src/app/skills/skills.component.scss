@@ -1,0 +1,26 @@
+.skills{
+    margin: 0 2em;
+}
+
+.skillsList{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.con-belt {
+    width: 270px;
+    height: 60px;
+    margin-left: 60px;
+    // color: #f72585;
+    // background: linear-gradient(90deg, currentColor 50%, #0000 0) 0 0%,
+    //   linear-gradient(-90deg, currentColor 50%, #0000 0) 50%,
+    //   linear-gradient(90deg, currentColor 50%, #0000 0) 0 100%;
+    background-size: 10px calc(100% / 3);
+    background-repeat: repeat-x;
+    animation: roll 0.25s infinite linear;
+  }
+  @keyframes roll {
+    100% {
+      background-position: -8px 0%, -8px 50%, -8px 100%;
+    }
+  }

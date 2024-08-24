@@ -1,0 +1,25 @@
+.home{
+    height: 450px;
+    border-bottom: 1px solid #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avtar{
+    border: 1px solid black;
+    margin: 2em;
+    width: 350px;
+    height: 350px;
+    border-radius:50%;
+}
+
+.intro{
+    border: 1px solid black;
+    margin: 2em;
+    width: 450px;
+    // height: 150px;
+    border-radius:5%;
+    text-align: justify;
+    padding: 0.5em;
+}
